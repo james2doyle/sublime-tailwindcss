@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+@screen ${1:md} {
+  ${2:@apply .${3:bg-white}};${0}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>scr</tabTrigger>
+  <description>tailwindcss: @screen snippet</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.pcss, source.postcss</scope>
+</snippet>

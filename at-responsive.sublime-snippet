@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@responsive {
+  .${1:classname} {
+    ${2:@apply .${3:bg-white}};${0}
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>res</tabTrigger>
+  <description>@responsive snippet for tailwindcss</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.pcss, source.postcss</scope>
+</snippet>
