@@ -218,4 +218,4 @@ class TailwindCSSAutocomplete(sublime_plugin.EventListener):
         return module
 
     def check_css_scope(self, view, matcher):
-        return view.match_selector(matcher, 'source.css meta.property-list.css') or view.match_selector(matcher, 'source.postcss') or view.match_selector(matcher, 'source.scss')
+        return view.match_selector(matcher, 'source.css meta.property-list.css') or view.match_selector(matcher, 'source.css meta.selector.css') or view.match_selector(matcher, 'source.postcss') or view.match_selector(matcher, 'source.scss')
